@@ -1,0 +1,355 @@
+/* ------- */
+/* BASICS */
+/* -------- */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    
+}
+
+/* ------------- */
+/*  font set */
+/* ------------- */
+
+@font-face {
+    src: url('../fonts/DancingScript-Bold.ttf') format('truetype');
+    font-family: dance;
+}
+
+@font-face {
+    src: url('../fonts/Lato-Light.ttf') format('truetype');
+    font-family: lato;
+}
+
+@font-face {
+    src: url('../fonts/Satisfy-Regular.ttf') format('truetype');
+    font-family: satisfy;
+}
+
+
+@font-face {
+    src: url('../fonts/RestoraThinItalic.otf') format('opentype');
+    font-family: restora;
+}
+
+@font-face {
+    src: url('../fonts/ComicNeue-Italic.ttf') format('truetype');
+    font-family: comic;
+}
+
+
+/*--------------- section 01 ------- */
+
+
+
+
+/* ----- background-image --------*/
+
+header {
+    background-image :linear-gradient(rgba(0, 0, 0, 0.64) , rgba(0, 0, 0, 0.67)) , url(../img/head-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    background-attachment: fixed;
+}
+
+
+
+/* ----header text */
+
+h1 {
+    
+    font-family: lato;
+    font-size: 350%;
+    font-weight: 300;
+    color: aliceblue;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    
+}
+.ab {
+    font-size: 50%
+}
+
+/*---nav bar ---*/
+
+h2 {
+    font-family: dance;
+    color: floralwhite;
+    float: left;
+    padding: 2% 5%
+    
+}
+
+
+
+.nav .btn {
+    float: right;
+    display: inline-block;
+    margin: 2% 3% 3% 2%;
+    padding: 1.5%;
+    text-transform: uppercase;
+    font-family: lato;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid white;
+    
+    transition: color .4s;
+    font-weight: 400
+          
+}
+
+.nav .btn:hover {
+    float: right;
+    display: inline-block;
+    margin: 2% 3% 3% 2%;
+    padding: 1.5%;
+    text-transform: uppercase;
+    font-family: lato;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid white;
+    background-color: white;
+    
+    transition: color .4s;
+    font-weight: 400
+    
+          
+}
+
+
+.nav .ac {
+    transition: background .5s
+}
+.nav .gh {
+    transition: background .5s
+}
+
+.nav .ac:hover {
+    transition: background .5s
+}
+.nav .gh:hover {
+    transition: background .5s
+}
+
+
+/* ---- section 02 ----*/
+
+/*  note please  */
+
+/* ------------------ -----------------------some of the section 02 parts are being made by in grid and set2 css file...(which will not be written in this page) */
+
+
+/*here will be written the headings of the section 2*/
+
+section {
+    background-color: rgb(52, 6, 6)
+}
+
+
+.text .slogun {
+    font-family: restora;
+    font-size: 325%;
+    border-bottom: 1px solid white;
+    padding: 3.25% 0% 1% 0%;
+    margin: 0% 13% 0% 13%;
+    transition: 5s;
+    text-transform: capitalize
+}
+
+.text .descript {
+    font-family: restora;
+    font-size: 150%;
+    word-spacing: 2px;
+    margin: 2%
+        
+    
+}
+
+section .text .provide {
+    font-family: comic;
+    font-size: 250%;
+    border-bottom: 2px solid #d3761a;
+    padding: 3.25% 0% 1% 0%;
+    margin: 0% 25% 0% 25%;
+    color: #d3761a;
+    text-transform: capitalize;
+    
+}
+
+
+/* section 02 is over..*/
+
+
+
+/*  next part will be here very soon  */
+
+.and {
+    font-family: lato ;
+    font-size: 310%;
+    padding: 2% 0% 1% 0%;
+    margin: 0% 50% 0% 50%;
+
+}
+
+
+/*----- this is the sectiion 03------*/
+
+
+section .provide {
+    font-family: comic;
+    font-size: 250%;
+    border-bottom: 2px solid #d3761a;
+    padding: 3.25% 0% 1% 0%;
+    margin: 0% 25% 0% 25%;
+    color: #d3761a;
+    text-transform: capitalize;
+    
+}
+
+/*       ----------------------     */
+
+section .learn-more {
+    text-transform: capitalize;
+    border: 1px solid #d3761a;
+    border-radius: 30px;
+    font-family: comic;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    word-spacing: 2.5px;
+    margin: 0% 4% 0% 84%;
+    padding: 0.5% 0% 0.5% 0%;
+    background-color: transparent;
+    transition: border , background-color .5s;
+}
+
+
+
+section .learn-more a{
+    color: #d3761a;
+    transition: color .4s;
+}
+
+
+
+section .learn-more a:hover {
+    color: black;
+    transition: color .4s;
+}
+
+section .learn-more:hover {
+    background-color: darkred;
+    transition: border , background-color .5s;
+     border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  color-      #d3761a      */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
